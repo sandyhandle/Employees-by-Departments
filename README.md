@@ -194,3 +194,17 @@ By using with-employees we can connect the departments with the employees.
     }
 ]
 ```
+## Zipkin
+Zipkin is running on a Docker containder
+```
+http://localhost:9411/zipkin/
+```
+![Screenshot 2023-08-15 at 5 21 03 PM](https://github.com/sandyhandle/employee-details/assets/64911148/13c01764-884d-4d67-979d-7697751e071d)
+
+## Eureka
+```
+http://localhost:8761/
+```
+![Screenshot 2023-08-15 at 5 22 02 PM](https://github.com/sandyhandle/employee-details/assets/64911148/a3efacec-ed02-4cd2-aa34-b2362996e754)
+
+
