@@ -1,8 +1,40 @@
-# Employee Details
-This repo contains a simple project of maintaing a Employee and their respective Departments of an orginaziation. 
+# Spring Boot Microservices Application for Employee-Department Details
+Developed a comprehensive Spring Boot microservices application consisting of multiple services to efficiently manage and present employee-department details within an organization.
 
 ![Screenshot 2023-08-15 at 4 42 40 PM](https://github.com/sandyhandle/employee-details/assets/64911148/3f566211-86dd-455a-86c5-9ff1e7dea993)
 
+## Services and Responsibilities:
+
+### Department-Service:
+
+Created a robust service to store and manage department details, ensuring accurate categorization of employees.
+
+### Employee-Service:
+
+Developed an employee information service, allowing efficient storage and retrieval of employee profiles along with their respective department affiliations.
+
+
+### Service-Registry:
+
+Set up a service registry to serve as a central server, enabling seamless service discovery and registration.
+
+### Config-Server:
+
+Configured a dedicated configuration server that dynamically provides YAML configuration details to the department-service, employee-service, and api-gateway, enhancing flexibility and maintainability.
+
+### API-Gateway:
+
+Implemented a secure API gateway to streamline communication between external clients and the department-service and employee-service, enhancing accessibility and security.
+
+### Key Achievements:
+
+- Orchestrated the integration of various microservices, ensuring efficient communication and cooperation between components.
+- Leveraged Spring Boot's microservices architecture to enhance scalability, maintainability, and separation of concerns.
+- Utilized Service Registry and API Gateway patterns to optimize service discovery and external access while maintaining security.
+- Employed Config Server to centralize and manage configuration details, simplifying maintenance and updates.
+- Contributed to the development of a cohesive and user-friendly platform that offers clear insights into employee-department relationships within the organization.
+
+***
 
 ## POST
 ```
@@ -52,6 +84,7 @@ By using the above GET we can get the below answer.
     }
 ]
 ```
+
 
 ## POST
 ```
